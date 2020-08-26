@@ -79,6 +79,8 @@ def mmxx2(bb):
             i=i+1
     return array(x_values), array(y_values)
 
+X, y=mmxx2(bb) #building the inputs and output variables
+
 n_features = 1
 n_seq = 6 #the number of subsequences
 n_steps = 5 #number of steps per subsequence
